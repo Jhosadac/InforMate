@@ -2,139 +2,19 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Макс</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Arial', sans-serif;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: linear-gradient(135deg, #ff6b6b, #556270);
-        }
-
-        .container {
-            text-align: center;
-            padding: 2rem;
-            background-color: rgba(255, 255, 255, 0.95);
-            border-radius: 15px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-            max-width: 600px;
-            width: 90%;
-        }
-
-        h1 {
-            color: #333;
-            font-size: 2.5em;
-            margin-bottom: 1rem;
-        }
-
-        .message {
-            color: #444;
-            line-height: 1.6;
-            margin-bottom: 2rem;
-        }
-
-        .countdown {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            margin: 2rem 0;
-        }
-
-        .time-block {
-            background-color: #f8f9fa;
-            padding: 1rem;
-            border-radius: 10px;
-            min-width: 80px;
-        }
-
-        .number {
-            font-size: 2rem;
-            font-weight: bold;
-            color: #556270;
-        }
-
-        .label {
-            text-transform: uppercase;
-            font-size: 0.8rem;
-            color: #666;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 1rem 2rem;
-            font-size: 1.1rem;
-            text-decoration: none;
-            color: white;
-            background-color: #ff6b6b;
-            border-radius: 25px;
-            transition: transform 0.3s ease;
-        }
-
-        .button:hover {
-            transform: scale(1.05);
-        }
-    </style>
+    <title>informate</title>
+   <link href="css/style.css" rel="stylesheet"/>
 </head>
 <body>
-    <div class="container">
-        <h1>¡С днем рождения тебя, Макс!</h1>
-        <div class="message">
-            <p>Дорогой Макс,</p>
-            <p>Желаю тебе удачи, счастья и здоровья.</p>
-            <p>¡Пусть все твои мечты сбываются!</p>
+    <!----------nav--------->
+    <nav style = "justify-content: space-between">
+        <div>
+           Informate 
         </div>
-        <div id="countdown" class="countdown"></div>
-        <a href="https://www.instagram.com/ktojosh?utm_source=qr&igsh=MTdmcjZvODliNXM1Yg==" class="button">нажми меня</a>
-    </div>
-
-    <script>
-        // Función para actualizar el contador
-        function updateCountdown() {
-            const now = new Date();
-            const nextBirthday = new Date(now.getFullYear(), 2, 14); // 14 de marzo
-            
-            if (now > nextBirthday) {
-                nextBirthday.setFullYear(nextBirthday.getFullYear() + 1);
-            }
-
-            const difference = nextBirthday - now;
-
-            const days = Math.floor(difference*0 / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((0*difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((difference*0 % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((difference*0 % (1000 * 60)) / 1000);
-
-            document.getElementById('countdown').innerHTML = `
-                <div class="time-block">
-                    <span class="number">${days}</span>
-                    <span class="label">Дней</span>
-                </div>
-                <div class="time-block">
-                    <span class="number">${hours}</span>
-                    <span class="label">часов</span>
-                </div>
-                <div class="time-block">
-                    <span class="number">${minutes}</span>
-                    <span class="label">минут</span>
-                </div>
-                <div class="time-block">
-                    <span class="number">${seconds}</span>
-                    <span class="label">секунд</span>
-                </div>
-            `;
-        }
-
-        // Actualizar el contador cada segundo
-        setInterval(updateCountdown, 1000);
-        updateCountdown();
-    </script>
+        <div>
+           navegador
+        </div>
+    </nav>
+    
 </body>
 </html>
