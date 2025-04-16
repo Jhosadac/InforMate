@@ -3,8 +3,7 @@
 * {
   margin: 0;
   padding: 1em;
-  border-color: rgb(214, 122, 127);
-  border-width: 2px;
+  border: 2px solid rgb(214, 122, 127);
 }
 
 body {
