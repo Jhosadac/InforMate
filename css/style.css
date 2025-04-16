@@ -2,8 +2,9 @@
 
 * {
   margin: 0;
-  padding: 1em;
+  padding: 0;
   border-color: rgb(214, 122, 127);
+  border-width: 2px;
 }
 
 body {
