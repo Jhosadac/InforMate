@@ -1,6 +1,6 @@
 @chartset "UTF-8"
 
-. {
+* {
   margin: 0;
   padding: 0;
 }
@@ -13,4 +13,5 @@ body {
 .navegator {
   display: flex; 
   justify-content: space-between;
+  width: 100%;
 }
