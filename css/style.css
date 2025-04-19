@@ -3,16 +3,20 @@
 * {
   margin: 0;
   padding: 1em;
-  border: 2px solid rgb(214, 122, 127);
 }
 
 body {
   min-height: 100vh;
   display: flex;
   align-items: start;
+  border: 2px solid rgb(214, 122, 127);
+}
+div {
+  border: 2px solid rgb(214, 122, 127);
 }
 .navegator {
   display: flex; 
   justify-content: space-between;
   width: 100%;
+  border: 2px solid rgb(214, 122, 127);
 }
