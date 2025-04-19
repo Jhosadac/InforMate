@@ -14,7 +14,7 @@ body {
 div {
   border: 2px solid rgb(214, 122, 127);
 }
-.navegator {
+nav {
   display: flex; 
   justify-content: space-between;
   width: 100%;
