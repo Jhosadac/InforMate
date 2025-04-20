@@ -30,6 +30,7 @@ header {
 .show-on-scroll {
   justify-content: space-between;
   width: 100%;
+  display: block;
 }
 
 
