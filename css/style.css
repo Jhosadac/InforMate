@@ -23,3 +23,9 @@ nav {
 .right-row {
   display: block;
 }
+header {
+  box-sizing: border-box;
+  with: 100%;
+  display: flex;
+  justify-content: space-between;
+}
