@@ -33,7 +33,10 @@ header {
   align-items: center;
 }
 .center-elements {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 
