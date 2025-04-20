@@ -24,13 +24,12 @@ nav {
 header {
   box-sizing: border-box;
   width: 100%;
-  display: flex;
 }
 
 .show-on-scroll {
   justify-content: space-between;
   width: 100%;
-  display: block;
+  display: table;
 }
 
 
