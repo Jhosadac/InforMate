@@ -29,8 +29,8 @@ body {
 }*/
 nav {
   display: flex; 
-  /*border: 2px solid rgb(214, 122, 127);
-            gap: 2.5rem;*/
+  /*border: 2px solid rgb(214, 122, 127)*/ 
+gap: 2.5rem;
 }
 nav a {
             text-decoration: none;
