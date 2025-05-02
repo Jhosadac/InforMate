@@ -40,5 +40,14 @@
         </div>
         
     </main>
+    <script>
+        // Funcionalidad del menú responsivo
+        const toggler = document.querySelector('.toggler');
+        const nav = document.querySelector('nav');
+
+        toggler.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
