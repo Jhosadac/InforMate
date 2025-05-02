@@ -24,9 +24,9 @@ body {
   color: var(--text-color);
   /*border: 2px solid rgb(214, 122, 127);*/
 }
-div {
+/*div {
   border: 2px solid rgb(214, 122, 127);
-}
+}*/
 nav {
   display: flex; 
   border: 2px solid rgb(214, 122, 127);
