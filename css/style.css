@@ -1,4 +1,4 @@
-@chartset "UTF-8"
+@charset "UTF-8"
 
 :root {
             --primary-color: #2c3e50;
@@ -56,7 +56,6 @@ header {
   background-color: var(--bg-color);
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   box-sizing: border-box;
-  width: 100%;
   position: sticky;
 }
 .container {
@@ -72,7 +71,7 @@ header {
             color: var(--primary-color);
             transition: all 0.3s ease;
         }
-logo:hover {
+.logo:hover {
             transform: translateY(-2px);
             color: var(--accent-color);
         }
